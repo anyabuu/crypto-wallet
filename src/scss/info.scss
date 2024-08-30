@@ -1,0 +1,41 @@
+.info {
+    margin-top: 100px;
+}
+
+.info-text {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    letter-spacing: 0.18px;
+    color: #252B3B;
+}
+
+.info__block {
+    display: flex;
+    margin-bottom: 82px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.info__block-data {
+    width: 427px;
+}
+
+.info__block-data-title {
+    font-size: 3.2rem;
+    line-height: 1.2;
+    color: #252B3B;
+    margin-bottom: 15px;
+}
+
+.info__block-data-list {
+    margin-top: 25px;
+}
+
+.info__block-data-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+

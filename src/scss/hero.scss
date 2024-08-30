@@ -1,0 +1,138 @@
+.hero {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+.header__upper-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    letter-spacing: 0.17px;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.header__main {
+    width: 522px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 131px auto 70px;
+    text-align: center;
+}
+
+.header__main-title {
+    font-size: 4.6rem;
+    line-height: 1.3;
+    letter-spacing: 0.46px;
+    margin-bottom: 20px;
+}
+
+.header__main-text {
+    font-size: 2.2rem;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    margin-bottom: 17px;
+}
+
+.header__display {
+    position: relative;
+}
+
+.header__display-window {
+    width: 251px;
+    background-color: white;
+    padding: 19px 21px 22px;
+    border-radius: 16px;
+    color: black;
+    position: absolute;
+}
+
+.header__display-window-top {
+    right: -20px;
+    top: -10px;
+}
+
+.header__display-window-down {
+    bottom: 63px;
+    left: -82px;
+}
+
+.header__display-window-title {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    letter-spacing: 0.12px;
+    margin-bottom: 10px;
+}
+
+.header__display-window-text {
+    font-size: 2rem;
+    line-height: 1.3;
+    letter-spacing: 0.4px;
+    margin-bottom: 10px;
+}
+
+.header__display-window-figure-group {
+    display: flex;
+    gap: 8px;
+}
+
+.header__display-window-figure-up-sm {
+    width: 10px;
+}
+
+.header__display-window-figure-up-bg {
+    width: 60px;
+}
+
+.header__display-window-figure-down-bg {
+    width: 96px;
+}
+
+.header__display-window-figure-down-sm {
+    width: 30px;
+    position: absolute;
+    top: 70px;
+    right: 22px;
+}
+
+.header__display-window-image {
+    position: absolute;
+    top: 69px;
+    right: -29px;
+}
+
+.header__display-window-title-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header__display-window-list {
+    display: flex;
+}
+
+.header__display-window-item {
+    margin-left: -14px;
+}
+
+.header__companies {
+    background-color: black;
+}
+
+.header__companies-list {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 40px 0;
+}
