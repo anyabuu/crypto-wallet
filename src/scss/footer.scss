@@ -1,0 +1,45 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding: 100px 0;
+}
+
+.footer__upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__upper-nav-list {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  display: flex;
+  gap: 35px;
+}
+
+.footer__description {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.28;
+  margin: 23px 0 40px 0;
+  letter-spacing: 0.16px;
+}
+
+.footer__down {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__down-part {
+  display: flex;
+  gap: 5px;
+}
+
+.footer__down--purple {
+  color: #985CFF;
+}
+
+
