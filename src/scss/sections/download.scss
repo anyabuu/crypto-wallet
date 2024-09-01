@@ -15,8 +15,7 @@
 }
 
 .download__wrapper {
-  background-image: url("../img/background.jpg");
-  background-repeat: no-repeat;
+  background: url('../img/background.jpg') no-repeat;
   background-size: cover;
   border-radius: 25px;
   display: flex;
