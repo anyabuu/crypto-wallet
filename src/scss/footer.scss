@@ -2,11 +2,26 @@
   background-color: black;
   color: white;
   padding: 100px 0;
+
+  @include media-phone {
+    padding: 50px;
+  }
 }
 
 .footer__upper {
   display: flex;
   justify-content: space-between;
+
+  @include media-phone {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+.footer__upper-logo {
+  @include media-phone {
+    width: 40%;
+  }
 }
 
 .footer__upper-nav-list {
@@ -17,11 +32,15 @@
   gap: 35px;
 }
 
+.footer__upper-nav-el-link:hover {
+  color: #965cff;
+}
+
 .footer__description {
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.28;
-  margin: 23px 0 40px 0;
+  margin: 23px 0 40px;
   letter-spacing: 0.16px;
 }
 
@@ -31,15 +50,26 @@
   line-height: 1.2;
   display: flex;
   justify-content: space-between;
+
+  @include media-phone {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 .footer__down-part {
   display: flex;
   gap: 5px;
+
+  @include media-phone {
+    flex-wrap: wrap;
+  }
 }
 
 .footer__down--purple {
-  color: #985CFF;
+  color: #985cff;
+
+  &:hover {
+    color: white;
+  }
 }
-
-

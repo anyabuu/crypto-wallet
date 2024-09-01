@@ -4,7 +4,7 @@
 
 body,
 html {
-  font-family: "Roboto", serif;
+  font-family: Roboto, serif;
   font-size: 10px;
   font-weight: 400;
 }
@@ -13,6 +13,14 @@ html {
   width: 1100px;
   margin-left: auto;
   margin-right: auto;
+
+  @include media-tablet {
+    width: 90%;
+  }
+
+  @include media-phone {
+    width: 88%;
+  }
 }
 
 .button {
@@ -27,16 +35,26 @@ html {
 .button--white {
   background-color: white;
   color: black;
+
+  &:hover {
+    background-color: #965cff;
+    color: white;
+  }
 }
 
 .button--purple {
-  background-color: #965CFF;
+  background-color: #965cff;
   color: white;
   gap: 8px;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
 }
 
 .figure {
-  background-color: #262C3B1C;
+  background-color: #262c3b1c;
   border-radius: 2px;
   height: 8px;
 }

@@ -1,9 +1,10 @@
-@import "reset.scss";
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import "general.scss";
-@import "hero.scss";
-@import "info.scss";
-@import "download.scss";
-@import "people.scss";
+@import "reset";
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+@import "mixins";
+@import "general";
+@import "hero";
+@import "info";
+@import "download";
+@import "people";
 @import "start";
 @import "footer";

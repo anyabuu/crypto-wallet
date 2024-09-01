@@ -4,21 +4,46 @@
   line-height: 1.4;
   text-align: center;
   margin-bottom: 76px;
+
+  @include media-tablet {
+    font-size: 4rem;
+    margin-bottom: 35px;
+  }
+
+  @include media-phone {
+    font-size: 3rem;
+  }
 }
 
 .people__cards-table {
   display: flex;
   justify-content: space-between;
+
+  @include media-tablet {
+    flex-wrap: wrap;
+  }
+
+  @include media-phone {
+    justify-content: center;
+  }
 }
 
 .people__cards {
   display: flex;
   flex-direction: column;
   gap: 17px;
+
+  @include media-tablet {
+    gap: 0;
+  }
 }
 
 .people__cards:nth-child(1) {
   justify-content: center;
+
+  @include media-tablet {
+    justify-content: flex-start;
+  }
 }
 
 .people__cards:nth-child(3) {
@@ -32,6 +57,10 @@
   flex-direction: column;
   gap: 17px;
   padding: 30px;
+
+  @include media-tablet {
+    width: 330px;
+  }
 }
 
 .people__card-profile {
